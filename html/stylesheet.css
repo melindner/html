@@ -1,0 +1,127 @@
+body {
+    background-image: linear-gradient(blue, red)
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+.link ul {
+    width: 150pt;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.link:hover {
+    opacity: 1;
+    background-color: rgba(174, 194, 247, 0.103);
+    border-radius: 50pt;
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: darkgray;
+    text-align: center;
+    line-height: 0;
+}
+
+.container {
+    display: grid;
+    color: rgb(0, 0, 0);
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "header header" "aside main";
+}
+
+header {
+    border-top-right-radius: 50pt;
+    border-top-left-radius: 50pt;
+    background-color: rgba(255, 255, 255);
+    grid-area: header;
+}
+
+aside {
+    border-bottom-left-radius: 50pt;
+    background-color: rgb(255, 255, 255);
+    grid-area: aside;
+    width: 150pt;
+}
+
+aside ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+aside li {
+    line-height: 25pt;
+    font-family: 'Lucida Sans';
+    font-size: 48px;
+    padding: 5px;
+    margin: 5px;
+}
+
+aside li:hover {
+    opacity: 1;
+    background-color: rgba(238, 58, 58, 0.103);
+    border-radius: 40pt;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    grid-area: main;
+    height: auto;
+    width:850pt;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 50pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+table{
+              
+    display: inline-flex;
+    padding-left: 75pt;
+    vertical-align:middle;
+}
+form {
+    border-width: auto;
+    line-height: 50pt;
+    text-align: left;
+}
+textarea{
+    resize: none;
+}
