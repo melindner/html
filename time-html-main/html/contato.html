@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Fale conosco</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+
+<body>
+    <div class="container my-ct">
+        <header class="row my-r">
+
+            <!-- LOGO -->
+            <a href="#" class="logo">
+                <img src="../images/logo.png" alt="">
+            </a>
+            <!-- LOGO/ -->
+
+            <!-- TEXTO NO CENTRO HEADER -->
+            <div class="col d-flex flex-column align-items-center justify-content-center">
+                <h1 class="text-center">Associação Sul Americana de Esporte, Cultura, Turismo e Lazer </h1>
+                <h3 class="text-center">Handebol Feminino - Florianópolis</h1>
+            </div>
+            <!-- /TEXTO NO CENTRO HEADER -->
+        </header>
+
+        <main class="row">
+            <!-- NAV LATERAL -->
+            <aside class="col-md-2 my-r">
+
+                <ul class="lista-paginas">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="rendimento.html">Rendimento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </aside>
+            <!-- /NAV LATERAL -->
+
+            <section class="col-md-10 my-r">
+                <h2 class="titulo-section">Fale conosco!</h2>
+                <!--Search-->
+                <form>
+                    <div class="form-group">
+                        <div class="col-md-6 mx-auto">
+                            <label for="duvidas" class="col-md-12 text-center">Podemos te ajudar?</label>
+                            <input type="text" class="form-control form-control-sm" id="duvidas" placeholder="Digite sua pergunta" aria-label="busca">
+                        </div>
+                    </div>
+
+                </form>
+                <!--/Search-->
+
+                <!--Grid????-->
+                <div class="row">
+                    <!--Collapse-->
+                    <div class="accordion col-sm-6" id="accordionPerguntas">
+                        <div class="card">
+                            <div class="card-header" id="headingUm">
+                                <h2 class="mb-0">
+                                    <button class="btn btn btn-light btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseUm" aria-expanded="true" aria-controls="collapseUm">
+                                Quais as categorias (idades)?
+                              </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseUm" class="collapse" aria-labelledby="headingUm" data-parent="#accordionPerguntas">
+                                <div class="card-body">
+                                    Infantil - 12 a 14 anos. <br/> Cadete - 14 a 16 anos.<br/> Juvenil - 16 a 18 anos.<br/> Adulto - maiores de 16 anos.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingDois">
+                                <h2 class="mb-0">
+                                    <button class="btn btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseDois" aria-expanded="false" aria-controls="collapseDois">
+                                Quais os dias de treino?
+                              </button>
+                                </h2>
+                            </div>
+                            <div id="collapseDois" class="collapse" aria-labelledby="headingDois" data-parent="#accordionPerguntas">
+                                <div class="card-body">
+                                    Infantil - segundas, quartas e sextas - das 8h as 10h. <br/> Cadete - segundas, quartas e sextas - das 10h as 12h.<br/> Juvenil - terças, quintas e domingos - das 18h as 20h.<br/> Adulto - terças, quintas e domingos
+                                    - das 20h as 22h.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTres">
+                                <h2 class="mb-0">
+                                    <button class="btn btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
+                                Como eu posso fazer para treinar com a equipe?
+                              </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTres" class="collapse" aria-labelledby="headingTrese" data-parent="#accordionPerguntas">
+                                <div class="card-body">
+                                    Para treinar com a gente é preciso ficar atento ao calendario de competições. As seletivas são feitas no começo de todo ano, caso as competições tenham terminado, os treinos ficam livres para aqueles que desejam participar nos dias especificos para cada
+                                    categoria.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Collapse-->
+                    <!--Cards-->
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <form>
+
+                                <div class="form-group">
+                                    <div>
+                                        <label for="digitaduvida">Sua duvida não apareceu? Digite aqui o que gostaria de perguntar!</label>
+                                        <textarea style="resize: none;" class="form-control" id="digitaduvida" rows="3"></textarea>
+                                        <button type="submit" class="btn btn-light">Enviar</button>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--/Cards-->
+                </div>
+                <!--/Grid???-->
+            </section>
+        </main>
+
+
+        <footer class="row">
+            <div class="col my-c">
+                redes sociais ICONE DE CADA REDE
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
